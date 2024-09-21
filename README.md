@@ -40,6 +40,8 @@ In 1932, James Chadwick discovered the neutron by bombarding beryllium with alph
 $$
 {}_{2}^{4}\alpha + \, {}_{4}^{9}\text{Be} \rightarrow \, {}_{6}^{12}\text{C} + \, {}_{0}^{1}\text{n}
 $$
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
 
 
 <p align="center">
