@@ -5,6 +5,27 @@
   </p>
 </div>
 
+## Geometry 
+
+```txt
+########### WORLD ##########
+### GUI (5. half leght) and air
+
+s:Gr/ViewA/Type             = "OpenGL"
+Ts/UseQt = "True"  # gui
+#b:Gr/ViewA/IncludeAxes = "True"
+d:Ge/World/HLX         = 1. m
+d:Ge/World/HLY         = 1. m
+d:Ge/World/HLZ         = 1. m
+b:Ge/World/Invisible   = "False"
+s:Ge/World/Material    = "Vacuum"
+```
+
+## Sources 
+
+## Detectors 
+
+
 ## Rutherford experiment 
  
 <p align="center">
@@ -13,4 +34,5 @@
 
 
 ## Chadwick's Discovery of The Neutron
+
 
