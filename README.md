@@ -42,13 +42,3 @@ In 1932, James Chadwick discovered the neutron by bombarding beryllium with alph
 <p align="center">
   <img width="600" height="300" src="/Images/Chadwich.jpg">
 </p>
-
-
-| Año  | Experimento de Chadwick                      | Descubrimiento          | Impacto                                    |
-|------|----------------------------------------------|-------------------------|--------------------------------------------|
-| 1932 | Bombardeo de berilio con partículas alfa      | Neutrón                  | Confirmó la existencia de partículas neutrales en el núcleo atómico |
-| 1935 | Análisis mediante conservación del momento    | Masa similar a la del protón | Desarrolló el modelo moderno del núcleo atómico |
-| 1935 | Nobel de Física otorgado a Chadwick           | Reconocimiento           | Contribución clave a la física nuclear     |
-
-
-
