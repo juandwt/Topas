@@ -42,7 +42,7 @@ In 1932, James Chadwick discovered the neutron by bombarding beryllium with alph
 </p>
 
 <p align="center">
-  <img with="700" height="190" src="/Images/2911.jpg">
+  <img with="700" height="190" src="/Images/experiment.jpg">
 </p>
 
 
