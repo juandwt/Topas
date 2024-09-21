@@ -8,7 +8,7 @@
 ## Geometry 
 
 ```bash
-########### WORLD ##########
+########### WORLD ###########
 ### GUI (5. half leght) and air
 
 s:Gr/ViewA/Type             = "OpenGL"
