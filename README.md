@@ -7,7 +7,7 @@
 
 ## Geometry 
 
-```cpp
+```bash
 ########### WORLD ##########
 ### GUI (5. half leght) and air
 
