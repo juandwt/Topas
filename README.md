@@ -37,7 +37,7 @@ s:Ge/World/Material    = "Vacuum"
 
 In 1932, James Chadwick discovered the neutron by bombarding beryllium with alpha particles, releasing neutral radiation. Through momentum conservation, he determined these particles had a mass similar to protons. This discovery was vital for understanding atomic nuclei, as it confirmed the existence of neutrons. Chadwick received the Nobel Prize in 1935 for this groundbreaking work. [The existence of Neutron](https://royalsocietypublishing.org/doi/epdf/10.1098/rspa.1932.0112)
 
-$${}_{2}^{4}\alpha + \, {}_{4}^{9}\text{Be} \rightarrow \, {}_{6}^{12}\text{C} + \, {}_{0}^{1}\text{n}$$
+${}_{2}^{4}\alpha + \, {}_{4}^{9}\text{Be} \rightarrow \, {}_{6}^{12}\text{C} + \, {}_{0}^{1}\text{n}$
 
 <p align="center">
   <img width="500" height="250" src="/Images/experiment.jpg">
