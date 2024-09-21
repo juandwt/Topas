@@ -38,3 +38,13 @@ s:Ge/World/Material    = "Vacuum"
 In 1932, James Chadwick discovered the neutron by bombarding beryllium with alpha particles, releasing neutral radiation. Through momentum conservation, he determined these particles had a mass similar to protons. This discovery was vital for understanding atomic nuclei, as it confirmed the existence of neutrons. Chadwick received the Nobel Prize in 1935 for this groundbreaking work.
 
 
+
+
+| Año  | Experimento de Chadwick                      | Descubrimiento          | Impacto                                    |
+|------|----------------------------------------------|-------------------------|--------------------------------------------|
+| 1932 | Bombardeo de berilio con partículas alfa      | Neutrón                  | Confirmó la existencia de partículas neutrales en el núcleo atómico |
+| 1935 | Análisis mediante conservación del momento    | Masa similar a la del protón | Desarrolló el modelo moderno del núcleo atómico |
+| 1935 | Nobel de Física otorgado a Chadwick           | Reconocimiento           | Contribución clave a la física nuclear     |
+
+
+
