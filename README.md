@@ -25,6 +25,12 @@ s:Ge/World/Material    = "Vacuum"
 
 ## Detectors 
 
+## Decaimiento del CO60
+
+<p align="center">
+  <img with="850" height="390" src="esquema desintegracion.jpg">
+</p>
+
 
 ## Rutherford experiment 
  
