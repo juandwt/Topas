@@ -28,7 +28,7 @@ s:Ge/World/Material    = "Vacuum"
 ## Decaimiento del CO60
 
 <p align="center">
-  <img with="850" height="390" src="esquema desintegracion.jpg">
+  <img with="850" height="390" src="/Images/esquema desintegracion.jpg">
 </p>
 
 
