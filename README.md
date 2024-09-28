@@ -46,6 +46,7 @@ Al estudiar 100 historias, se observó la generación de:
 Esto corresponde a un \( 100\% \) de coincidencia, resultado que es coherente con lo reportado en la literatura (Collins \& Ottinger, 2003).
 
 
+
 <p align="center">
   <img with="850" height="330" src="/Images/esquema desintegracion.jpg">
 </p>
