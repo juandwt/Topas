@@ -26,13 +26,25 @@ s:Ge/World/Material    = "Vacuum"
 ## Detectors 
 ## Physics 
 
-En función de las reacciones presentadas (ver anexos), se observa que todos los decaimientos ocurren en el origen del sistema de referencia (ver Figura). En cada historia, se repite la misma reacción en la que el \( \text{Co}^{60} \) decae mediante radiación \( \beta^{-} \), generando un electrón \( e^{-} \) el cual deja una traza de color rojo y un antineutrino electrónico \( \bar{\nu}_e \), cuya suma de energías en cada historia es \( E_{e^{-} + \bar{\nu}_e} \approx 0.317 ~ \text{MeV} \), además de un estado excitado de \( \text{Ni}^{60}[2505.753] \).\\
+## Descripción de los decaimientos de \( \text{Co}^{60} \)
 
- 
-\noindent Este último, al poseer un exceso de energía, emite un fotón \( \gamma \) que deja una traza de color verde y tiene una energía de 1.17 MeV, resultando en la formación del estado excitado \( \text{Ni}^{60}[1332.514] \). Este estado excitado, \( \text{Ni}^{60}[1332.514] \), posteriormente decae, emitiendo otro fotón \( \gamma \) de 1.33 MeV, lo que lleva a la formación de \( \text{Ni}^{60} \), un isótopo estable. Al estudiar 100 historias, se observó la generación de 100 fotones \( \gamma \) de energía \( 1.17~\text{MeV} \) y 100 fotones \( \gamma \) con energía de \( 1.33~\text{MeV} \), lo que corresponde a un \( 100\% \). Este resultado es coherente con lo reportado en la literatura (Collins \& Ottinger, 2003).
+En función de las reacciones presentadas (ver anexos), se observa que todos los decaimientos ocurren en el origen del sistema de referencia (ver Figura). En cada historia, se repite la misma reacción en la que el \( \text{Co}^{60} \) decae mediante radiación \( \beta^{-} \), generando un electrón \( e^{-} \) que deja una traza de color rojo y un antineutrino electrónico \( \bar{\nu}_e \). La suma de energías en cada historia es:
 
+\[
+E_{e^{-} + \bar{\nu}_e} \approx 0.317 ~ \text{MeV}
+\]
 
-## Decaimiento del CO60
+Además, se forma un estado excitado de \( \text{Ni}^{60}[2505.753] \).
+
+Este último, al poseer un exceso de energía, emite un fotón \( \gamma \) que deja una traza de color verde y tiene una energía de 1.17 MeV, resultando en la formación del estado excitado \( \text{Ni}^{60}[1332.514] \). Este estado excitado, \( \text{Ni}^{60}[1332.514] \), posteriormente decae, emitiendo otro fotón \( \gamma \) de 1.33 MeV, lo que lleva a la formación de \( \text{Ni}^{60} \), un isótopo estable.
+
+Al estudiar 100 historias, se observó la generación de:
+
+- 100 fotones \( \gamma \) con energía de 1.17 MeV.
+- 100 fotones \( \gamma \) con energía de 1.33 MeV.
+
+Esto corresponde a un \( 100\% \) de coincidencia, resultado que es coherente con lo reportado en la literatura (Collins \& Ottinger, 2003).
+
 
 <p align="center">
   <img with="850" height="330" src="/Images/esquema desintegracion.jpg">
