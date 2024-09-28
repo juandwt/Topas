@@ -26,24 +26,22 @@ s:Ge/World/Material    = "Vacuum"
 ## Detectors 
 ## Physics 
 
-## Descripción de los decaimientos de \( \text{Co}^{60} \)
+## Descripción de los decaimientos de Co-60
 
-En función de las reacciones presentadas (ver anexos), se observa que todos los decaimientos ocurren en el origen del sistema de referencia (ver Figura). En cada historia, se repite la misma reacción en la que el \( \text{Co}^{60} \) decae mediante radiación \( \beta^{-} \), generando un electrón \( e^{-} \) que deja una traza de color rojo y un antineutrino electrónico \( \bar{\nu}_e \). La suma de energías en cada historia es:
+En función de las reacciones presentadas (ver anexos), se observa que todos los decaimientos ocurren en el origen del sistema de referencia (ver Figura). En cada historia, se repite la misma reacción en la que el Co-60 decae mediante radiación beta negativa (β⁻), generando un electrón (e⁻) que deja una traza de color rojo y un antineutrino electrónico (ν̅ₑ). La suma de energías en cada historia es:
 
-\[
-E_{e^{-} + \bar{\nu}_e} \approx 0.317 ~ \text{MeV}
-\]
+**E_{e⁻ + ν̅ₑ} ≈ 0.317 MeV**
 
-Además, se forma un estado excitado de \( \text{Ni}^{60}[2505.753] \).
+Además, se forma un estado excitado de Ni-60[2505.753].
 
-Este último, al poseer un exceso de energía, emite un fotón \( \gamma \) que deja una traza de color verde y tiene una energía de 1.17 MeV, resultando en la formación del estado excitado \( \text{Ni}^{60}[1332.514] \). Este estado excitado, \( \text{Ni}^{60}[1332.514] \), posteriormente decae, emitiendo otro fotón \( \gamma \) de 1.33 MeV, lo que lleva a la formación de \( \text{Ni}^{60} \), un isótopo estable.
+Este último, al poseer un exceso de energía, emite un fotón gamma (γ) que deja una traza de color verde y tiene una energía de 1.17 MeV, resultando en la formación del estado excitado Ni-60[1332.514]. Este estado excitado, Ni-60[1332.514], posteriormente decae, emitiendo otro fotón gamma (γ) de 1.33 MeV, lo que lleva a la formación de Ni-60, un isótopo estable.
 
 Al estudiar 100 historias, se observó la generación de:
 
-- 100 fotones \( \gamma \) con energía de 1.17 MeV.
-- 100 fotones \( \gamma \) con energía de 1.33 MeV.
+- 100 fotones gamma (γ) con energía de 1.17 MeV.
+- 100 fotones gamma (γ) con energía de 1.33 MeV.
 
-Esto corresponde a un \( 100\% \) de coincidencia, resultado que es coherente con lo reportado en la literatura (Collins \& Ottinger, 2003).
+Esto corresponde a un 100% de coincidencia, resultado que es coherente con lo reportado en la literatura (Collins & Ottinger, 2003).
 
 
 
