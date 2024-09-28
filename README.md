@@ -49,26 +49,6 @@ Esto corresponde a un 100% de coincidencia, resultado que es coherente con lo re
   <img with="850" height="330" src="/Images/esquema desintegracion.jpg">
 </p>
 
-<h2>Descripción de los decaimientos de Co-60</h2>
-
-<p>En función de las reacciones presentadas (ver anexos), se observa que todos los decaimientos ocurren en el origen del sistema de referencia (ver Figura). En cada historia, se repite la misma reacción en la que el Co-60 decae mediante radiación beta negativa (β⁻), generando un electrón (e⁻) que deja una traza de color rojo y un antineutrino electrónico (ν̅ₑ). La suma de energías en cada historia es:</p>
-
-<p><strong>E<sub>e⁻ + ν̅ₑ</sub> ≈ 0.317 MeV</strong></p>
-
-<p>Además, se forma un estado excitado de Ni-60[2505.753].</p>
-
-<p>Este último, al poseer un exceso de energía, emite un fotón gamma (γ) que deja una traza de color verde y tiene una energía de 1.17 MeV, resultando en la formación del estado excitado Ni-60[1332.514]. Este estado excitado, Ni-60[1332.514], posteriormente decae, emitiendo otro fotón gamma (γ) de 1.33 MeV, lo que lleva a la formación de Ni-60, un isótopo estable.</p>
-
-<p>Al estudiar 100 historias, se observó la generación de:</p>
-
-<ul>
-    <li>100 fotones gamma (γ) con energía de 1.17 MeV.</li>
-    <li>100 fotones gamma (γ) con energía de 1.33 MeV.</li>
-</ul>
-
-<p>Esto corresponde a un 100% de coincidencia, resultado que es coherente con lo reportado en la literatura (Collins & Ottinger, 2003).</p>
-
-
 
 ## Rutherford experiment 
  
