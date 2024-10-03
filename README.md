@@ -50,7 +50,7 @@ Esto corresponde a un 100% de coincidencia, resultado que es coherente con lo re
 </p>
 
 
-## Rutherford experiment 
+## Rutherford experiment 1919 Nitrogen 
  
 <p align="center">
   <img with="850" height="390" src="topas.jpg">
