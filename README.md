@@ -73,7 +73,7 @@ In 1932, James Chadwick discovered the neutron by bombarding beryllium with alph
 ## Radiation 
 
 <p align="center">
-  <img width="600" height="300" src="/Images/radiation.svg">
+  <img width="600" height="300" src="/Images/radiation.jpg">
 </p>
 
 
