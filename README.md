@@ -51,6 +51,11 @@ Esto corresponde a un 100% de coincidencia, resultado que es coherente con lo re
 
 
 ## Rutherford experiment 1919 Nitrogen 
+
+<p align="center">
+  <img width="600" height="300" src="/Images/1919.jpg">
+</p>
+
  
 <p align="center">
   <img with="850" height="390" src="topas.jpg">
@@ -64,4 +69,13 @@ In 1932, James Chadwick discovered the neutron by bombarding beryllium with alph
 <p align="center">
   <img width="600" height="300" src="/Images/Chadwich.jpg">
 </p>
+
+## Radiation 
+
+<p align="center">
+  <img width="600" height="300" src="/Images/radiation.svg">
+</p>
+
+
+
 
