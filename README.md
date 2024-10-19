@@ -76,6 +76,12 @@ In 1932, James Chadwick discovered the neutron by bombarding beryllium with alph
   <img width="600" height="300" src="/Images/radiation.jpg">
 </p>
 
+## Peak's Bragg
+
+<p align="center">
+  <img width="600" height="300" src="/Images/peak's bragg.jpg">
+</p>
+
 
 
 
