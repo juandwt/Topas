@@ -83,5 +83,81 @@ In 1932, James Chadwick discovered the neutron by bombarding beryllium with alph
 </p>
 
 
+```txt
+# ===========
+# the scoring
+# ===========
 
+# =========
+# the world
+# =========
+
+#Ts/UseQt                   = "True"
+#s:Gr/ViewA/Type            = "OpenGL"
+#b:Gr/ViewA/IncludeAxes     = "True"
+d:Ge/World/HLX             = 2 m
+d:Ge/World/HLY             = 2 m
+d:Ge/World/HLZ             = 2 m
+s:Ge/World/Material        = "Vacuum"
+
+
+b:Ge/QuitIfOverlapDetected = "True"
+
+# ==========
+# the target
+# ==========
+
+s:Ge/Target/Type          = "TsBox"
+s:Ge/Target/Material      = "G4_WATER"
+s:Ge/Target/Parent        = "World"
+d:Ge/Target/HLX           = 50 cm
+d:Ge/Target/HLY           = 50 cm
+d:Ge/Target/HLZ           = 10 cm
+i:Ge/Target/ZBins         = 40
+sc:Ge/Target/Color        = "Blue"
+sc:Ge/Target/DrawingStyle = "WireFrame"
+
+# ==========
+# the source
+# ==========
+
+s:So/MyFuente/Type                     = "Beam"
+s:So/MyFuente/Component                = "BeamPosition"
+s:So/MyFuente/BeamParticle             = "proton"
+d:So/MyFuente/BeamEnergy               = 130 MeV
+s:So/MyFuente/BeamPositionDistribution = "None"
+s:So/MyFuente/BeamPositionCutoffShape  = "None"
+s:So/MyFuente/BeamAngularDistribution  = "None"
+d:Ge/BeamPosition/TransX               = 0. m
+d:Ge/BeamPosition/TransY               = 0. m
+d:Ge/BeamPosition/TransZ               = -50. cm
+
+d:Ge/BeamPosition/RotX                 = 0. deg
+d:Ge/BeamPosition/RotY                 = 0. deg
+d:Ge/BeamPosition/RotZ                 = 0. deg
+
+i:So/MyFuente/NumberOfHistoriesInRun   = 10000
+i:Ts/ShowHistoryCountAtInterval        = 10
+
+# ============
+# Physics lsit
+# ============
+
+sv:Ph/Default/Modules  = 1 "g4em-standard_opt0"
+
+#i:Ts/NumberOfThreads   = 8
+i:Ts/TrackingVerbosity = 0
+
+# ==========
+# The scores
+# ==========
+
+s:Sc/EnergyScorer/Quantity                  = "EnergyDeposit"
+s:Sc/EnergyScorer/Component                 = "Target"
+b:Sc/EnergyScorer/OutputConsole             = "True"
+s:Sc/EnergyScorer/IfOutputFileAlreadyExists = "Overwrite"
+s:Sc/EnergyScorer/OutputType                = "csv"
+s:Sc/EnergyScorer/OutputFile                = "Energy-loss-130MeV"
+sv:Sc/EnergyScorer/Report                   = 5 "sum" "mean" "Standard_Deviation" "Histories" "Count_In_Bin"
+```
 
