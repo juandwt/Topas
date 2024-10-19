@@ -156,12 +156,14 @@ s:Sc/EnergyScorer/OutputType                = "csv"
 s:Sc/EnergyScorer/OutputFile                = "Energy-loss-130MeV"
 sv:Sc/EnergyScorer/Report                   = 5 "sum" "mean" "Standard_Deviation" "Histories" "Count_In_Bin"
 ```
+<p align="center">
+  <img width="600" height="300" src="/Images/G4_WATER.jpg">
+</p>
+
+Energy deposited in the water by the proton
 
 <p align="center">
   <img width="600" height="300" src="/Images/peak's Bragg.jpg">
 </p>
 
-<p align="center">
-  <img width="600" height="300" src="/Images/G4_WATER.jpg">
-</p>
 
