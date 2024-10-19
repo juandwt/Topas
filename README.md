@@ -78,10 +78,6 @@ In 1932, James Chadwick discovered the neutron by bombarding beryllium with alph
 
 ## Peak's Bragg
 
-<p align="center">
-  <img width="600" height="300" src="/Images/peak's Bragg.jpg">
-</p>
-
 
 ```txt
 # ===========
@@ -160,4 +156,9 @@ s:Sc/EnergyScorer/OutputType                = "csv"
 s:Sc/EnergyScorer/OutputFile                = "Energy-loss-130MeV"
 sv:Sc/EnergyScorer/Report                   = 5 "sum" "mean" "Standard_Deviation" "Histories" "Count_In_Bin"
 ```
+
+<p align="center">
+  <img width="600" height="300" src="/Images/peak's Bragg.jpg">
+</p>
+
 
