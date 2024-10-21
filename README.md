@@ -137,7 +137,7 @@ sv:Sc/EnergyScorer/Report                   = 5 "sum" "mean" "Standard_Deviation
 ```
 
 <p align="center">
-  <img width="600" height="300" src="/Images/G4_WATER.jpg">
+  <img width="300" height="300" src="/Images/G4_WATER.jpg">
 </p>
 
 **Energy deposited in the water by the proton:**
