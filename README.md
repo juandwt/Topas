@@ -137,7 +137,7 @@ sv:Sc/EnergyScorer/Report                   = 5 "sum" "mean" "Standard_Deviation
 ```
 
 <p align="center">
-  <img width="300" height="300" src="/Images/G4_WATER.jpg">
+  <img width="600" height="300" src="/Images/G4_WATER.jpg">
 </p>
 
 **Energy deposited in the water by the proton:**
@@ -166,7 +166,7 @@ Al estudiar 100 historias, se observó la generación de:
 Esto corresponde a un 100% de coincidencia, resultado que es coherente con lo reportado en la literatura (Collins & Ottinger, 2003).
 
 <p align="center">
-  <img width="850" height="330" src="/Images/esquema desintegracion.jpg">
+  <img width="400" height="330" src="/Images/esquema desintegracion.jpg">
 </p>
 
 ## 4.2 Rutherford's 1919 Nitrogen Experiment
