@@ -192,3 +192,143 @@ In 1932, James Chadwick discovered the neutron by bombarding beryllium with alph
 <p align="center">
   <img width="600" height="300" src="/Images/radiation.jpg">
 </p>
+
+# Scoring volumetric
+
+```
+# ===========
+# the scoring
+# ===========
+
+# =========
+# the world
+# =========
+
+Ts/UseQt                   = "True"
+s:Gr/ViewA/Type            = "OpenGL"
+#b:Gr/ViewA/IncludeAxes     = "True"
+d:Ge/World/HLX             = 0.1 m
+d:Ge/World/HLY             = 0.1 m
+d:Ge/World/HLZ             = 0.3 m
+s:Ge/World/Material        = "Vacuum"
+
+b:Ge/QuitIfOverlapDetected = "True"
+
+# ============
+# Water block
+# ============
+
+s:Ge/Target/Type          = "TsBox"
+s:Ge/Target/Material      = "G4_WATER"
+s:Ge/Target/Parent        = "World"
+d:Ge/Target/HLX           = 5 cm
+d:Ge/Target/HLY           = 5 cm
+d:Ge/Target/HLZ           = 10 cm
+i:Ge/Target/XBins         = 1
+i:Ge/Target/YBins         = 1
+i:Ge/Target/ZBins         = 40
+sc:Ge/Target/Color        = "Blue"
+sc:Ge/Target/DrawingStyle = "WireFrame"
+
+# ============
+# the target 1
+# ============
+
+s:Ge/Target1/Type          = "TsBox"
+s:Ge/Target1/Material      = "Vacuum"
+s:Ge/Target1/Parent        = "World"
+d:Ge/Target1/HLX           = 5 cm
+d:Ge/Target1/HLY           = 5 cm
+d:Ge/Target1/HLZ           = 1 mm
+d:Ge/Target1/TransZ        = -0.13 m
+sc:Ge/Target1/Color        = "Gray"
+sc:Ge/Target1/DrawingStyle = "WireFrame"
+
+# ============
+# the target 2
+# ============
+
+s:Ge/Target2/Type          = "TsBox"
+s:Ge/Target2/Material      = "Vacuum"
+s:Ge/Target2/Parent        = "World"
+d:Ge/Target2/HLX           = 5 cm
+d:Ge/Target2/HLY           = 5 cm
+d:Ge/Target2/HLZ           = 1 mm
+d:Ge/Target2/TransZ        = 0.102 m
+s:Ge/Target2/Color         = "Gray"
+s:Ge/Target2/DrawingStyle  = "WireFrame"
+
+#===========
+# proteccion
+#===========
+
+s:Ge/Cylinder/Type                = "TsCylinder"
+s:Ge/Cylinder/Parent              = "World"
+sc:Ge/Cylinder/Material           = "G4_Pb"
+dc:Ge/Cylinder/TransZ             = -0.115 m
+dc:Ge/Cylinder/RMax               = 0.05 m
+dc:Ge/Cylinder/RMin               = 0.1 cm
+dc:Ge/Cylinder/HL                 = 0.8 cm 
+d:Ge/Cylinder/RotX                = 0. deg
+d:Ge/Cylinder/RotY                = 0. deg
+d:Ge/Cylinder/RotZ                = 0. deg
+sc:Ge/Cylinder/DrawingStyle       = "Cloud"
+s:Ge/Cylinder/Color               = "Gray"
+
+# ==========
+# the source
+# ==========
+
+s:So/MyFuente/Type                     = "Beam"
+s:So/MyFuente/Component                = "BeamPosition"
+s:So/MyFuente/BeamParticle             = "proton"
+d:So/MyFuente/BeamEnergy               = 150 MeV
+s:So/MyFuente/BeamPositionDistribution = "None"
+s:So/MyFuente/BeamPositionCutoffShape  = "None"
+s:So/MyFuente/BeamAngularDistribution  = "None"
+d:Ge/BeamPosition/TransX               = 0. m
+d:Ge/BeamPosition/TransY               = 0. m
+
+d:Ge/BeamPosition/TransZ               = -50. cm
+
+d:Ge/BeamPosition/RotX                 = 0. deg
+d:Ge/BeamPosition/RotY                 = 0. deg
+d:Ge/BeamPosition/RotZ                 = 0. deg
+
+i:So/MyFuente/NumberOfHistoriesInRun   = 100000
+i:Ts/ShowHistoryCountAtInterval        = 10
+
+# ============
+# Physics lsit
+# ============
+
+sv:Ph/Default/Modules  = 1 "g4em-standard_opt0"
+
+#i:Ts/NumberOfThreads   = 10
+i:Ts/TrackingVerbosity = 0
+
+# ==========
+# The scores
+# ==========
+
+s:Sc/EnergyScorer/Quantity                   = "EnergyDeposit"
+s:Sc/EnergyScorer/Component                  = "Target"
+b:Sc/EnergyScorer/OutputConsole              = "True"
+s:Sc/EnergyScorer/IfOutputFileAlreadyExists  = "Overwrite"
+s:Sc/EnergyScorer/OutputType                 = "csv"
+s:Sc/EnergyScorer/OutputFile                 = "Target_13"
+sv:Sc/EnergyScorer/Report                    = 3 "sum" "mean" "Histories" 
+
+#s:Sc/EnergyScorer/Quantity                  = "OriginCount"
+#s:Sc/EnergyScorer/Component                 = "Target2"
+#b:Sc/EnergyScorer/OutputConsole             = "True"
+#s:Sc/EnergyScorer/IfOutputFileAlreadyExists = "Overwrite"
+#s:Sc/EnergyScorer/OutputType                = "csv"
+#s:Sc/EnergyScorer/OutputFile                = "Target_2"
+#sv:Sc/EnergyScorer/Report                   = 1 "Histories"  
+
+
+#s:Sc/EnergyScorer/OnlyIncludeParticlesOfGeneration  = "Primary"
+#s:Sc/EnergyScorer/OnlyIncludeParticlesOfGeneration  = "Secondary"
+#sv:Sc//OnlyIncludeIfIncidentParticlesNamed          = 1 "gamma"
+```
